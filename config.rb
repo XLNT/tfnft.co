@@ -6,6 +6,7 @@ activate :autoprefixer do |prefix|
 end
 
 activate :livereload, :ignore => ['node_modules']
+activate :imageoptim
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
